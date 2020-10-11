@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-wrap: wrap;
+}
+nav {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+nav > .container {
+  /* border: 1px solid yellow; */
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbarr {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 !important;
+  padding: 0 !important;
+  justify-content: space-around;
+  align-items: flex-end !important;
+}
+.navbarr > li {
+  padding: 0;
+  margin: 0;
+}
+.navbarr > li > a {
+  color: black;
+}
+.navbarr > li > a:hover {
+  text-decoration: none;
+}
+nav > .container > .logo {
+  width: 260px;
+}
+nav > .container > .navbarr {
+  padding: 0 !important;
+  width: 460px;
+}
+a.nav-link {
+  padding: 0 !important;
+}
+nav > .container > .logo > img {
+  width: 110px;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  width: 1920px;
+  align-items: center;
+}
+
+.banner > .leaf > img {
+  width: auto;
+  height: auto;
+}
+h1 {
+  font-size: 60px !important;
+}
+h5 {
+  font-size: 15px !important;
+  color: #ff817e;
+}
+p {
+  font-size: 15px !important;
+}
+.banner > .center {
+  /* width: 846px; */
+  height: 367px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid grey; */
+}
+
+.banner > .spa > img {
+  width: auto;
+  height: auto;
+  justify-content: flex-end;
+}
+.click--video {
+  display: flex;
+  align-items: flex-end !important;
+}
+.click--video > button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #ff817e;
+  color: white;
+  width: 170px;
+  height: 50px;
+}
+.click--video > button > p {
+  line-height: 20px;
+  margin: auto;
+}
+.watch {
+  display: flex;
+  align-items: center !important;
+  margin-left: 50px;
+}
+.watch > p {
+  margin: 0;
+  align-items: center !important;
+  margin-left: 15px;
+}
+.watch > button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fcf5ee;
+}
+.watch > button > i {
+  color: #ff817e;
+}
